@@ -68,7 +68,7 @@ class ViewController: UIViewController {
         customButton.adjustsImageWhenHighlighted = false
         
         // 去掉禁用状态下的图像颜色加深
-        customButton.adjustsImageWhenHighlighted = false
+        customButton.adjustsImageWhenDisabled = false
         
         // 添加按钮按下发光效果
         customButton.showsTouchWhenHighlighted = true
