@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		1885B9161C4E6EF000B9336E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885B9151C4E6EF000B9336E /* AppDelegate.swift */; };
 		1885B9181C4E6EF000B9336E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885B9171C4E6EF000B9336E /* ViewController.swift */; };
-		1885B91B1C4E6EF000B9336E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1885B9191C4E6EF000B9336E /* Main.storyboard */; };
 		1885B91D1C4E6EF000B9336E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1885B91C1C4E6EF000B9336E /* Assets.xcassets */; };
-		1885B9201C4E6EF000B9336E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1885B91E1C4E6EF000B9336E /* LaunchScreen.storyboard */; };
 		1885B92B1C4E6EF000B9336E /* SwiftBlankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885B92A1C4E6EF000B9336E /* SwiftBlankTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,9 +27,7 @@
 		1885B9121C4E6EF000B9336E /* SwiftBlank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBlank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1885B9151C4E6EF000B9336E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1885B9171C4E6EF000B9336E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1885B91A1C4E6EF000B9336E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1885B91C1C4E6EF000B9336E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1885B91F1C4E6EF000B9336E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1885B9211C4E6EF000B9336E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1885B9261C4E6EF000B9336E /* SwiftBlankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBlankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1885B92A1C4E6EF000B9336E /* SwiftBlankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBlankTests.swift; sourceTree = "<group>"; };
@@ -79,9 +75,7 @@
 			children = (
 				1885B9151C4E6EF000B9336E /* AppDelegate.swift */,
 				1885B9171C4E6EF000B9336E /* ViewController.swift */,
-				1885B9191C4E6EF000B9336E /* Main.storyboard */,
 				1885B91C1C4E6EF000B9336E /* Assets.xcassets */,
-				1885B91E1C4E6EF000B9336E /* LaunchScreen.storyboard */,
 				1885B9211C4E6EF000B9336E /* Info.plist */,
 			);
 			path = SwiftBlank;
@@ -179,9 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1885B9201C4E6EF000B9336E /* LaunchScreen.storyboard in Resources */,
 				1885B91D1C4E6EF000B9336E /* Assets.xcassets in Resources */,
-				1885B91B1C4E6EF000B9336E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,25 +213,6 @@
 			targetProxy = 1885B9271C4E6EF000B9336E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1885B9191C4E6EF000B9336E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1885B91A1C4E6EF000B9336E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1885B91E1C4E6EF000B9336E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1885B91F1C4E6EF000B9336E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1885B92D1C4E6EF000B9336E /* Debug */ = {

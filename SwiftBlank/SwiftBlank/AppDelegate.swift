@@ -11,11 +11,25 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    // 后面的 ?, 因为只定义了变量的类型, 并没有实例化
     var window: UIWindow?
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // 实例化窗口
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        // window! 表示window 一定存在了
+        // 提示 window? 虽然也可以, 但是不建议使用!
+        
+        // 设置根视图控制器
+        window!.rootViewController = ViewController()
+        
+        // 让窗口可见
+        window!.makeKeyAndVisible()
+        
         return true
     }
 
