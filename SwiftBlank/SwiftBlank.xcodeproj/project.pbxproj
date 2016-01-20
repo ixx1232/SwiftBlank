@@ -11,6 +11,7 @@
 		1885B9181C4E6EF000B9336E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885B9171C4E6EF000B9336E /* ViewController.swift */; };
 		1885B91D1C4E6EF000B9336E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1885B91C1C4E6EF000B9336E /* Assets.xcassets */; };
 		1885B92B1C4E6EF000B9336E /* SwiftBlankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885B92A1C4E6EF000B9336E /* SwiftBlankTests.swift */; };
+		1885B93A1C4E899800B9336E /* TableVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885B9391C4E899800B9336E /* TableVC1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,11 +28,12 @@
 		1885B9121C4E6EF000B9336E /* SwiftBlank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBlank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1885B9151C4E6EF000B9336E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1885B9171C4E6EF000B9336E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1885B91C1C4E6EF000B9336E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1885B9211C4E6EF000B9336E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1885B91C1C4E6EF000B9336E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../SwiftBlank/Assets.xcassets; sourceTree = "<group>"; };
+		1885B9211C4E6EF000B9336E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../SwiftBlank/Info.plist; sourceTree = "<group>"; };
 		1885B9261C4E6EF000B9336E /* SwiftBlankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBlankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1885B92A1C4E6EF000B9336E /* SwiftBlankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBlankTests.swift; sourceTree = "<group>"; };
 		1885B92C1C4E6EF000B9336E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1885B9391C4E899800B9336E /* TableVC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableVC1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +77,7 @@
 			children = (
 				1885B9151C4E6EF000B9336E /* AppDelegate.swift */,
 				1885B9171C4E6EF000B9336E /* ViewController.swift */,
-				1885B91C1C4E6EF000B9336E /* Assets.xcassets */,
-				1885B9211C4E6EF000B9336E /* Info.plist */,
+				1885B9391C4E899800B9336E /* TableVC1.swift */,
 			);
 			path = SwiftBlank;
 			sourceTree = "<group>";
@@ -84,6 +85,8 @@
 		1885B9291C4E6EF000B9336E /* SwiftBlankTests */ = {
 			isa = PBXGroup;
 			children = (
+				1885B9211C4E6EF000B9336E /* Info.plist */,
+				1885B91C1C4E6EF000B9336E /* Assets.xcassets */,
 				1885B92A1C4E6EF000B9336E /* SwiftBlankTests.swift */,
 				1885B92C1C4E6EF000B9336E /* Info.plist */,
 			);
@@ -191,6 +194,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1885B93A1C4E899800B9336E /* TableVC1.swift in Sources */,
 				1885B9181C4E6EF000B9336E /* ViewController.swift in Sources */,
 				1885B9161C4E6EF000B9336E /* AppDelegate.swift in Sources */,
 			);
@@ -361,6 +365,7 @@
 				1885B9311C4E6EF000B9336E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1885B9321C4E6EF000B9336E /* Build configuration list for PBXNativeTarget "SwiftBlankTests" */ = {
 			isa = XCConfigurationList;
@@ -369,6 +374,7 @@
 				1885B9341C4E6EF000B9336E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
