@@ -14,6 +14,7 @@
 		1885B93A1C4E899800B9336E /* TableVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885B9391C4E899800B9336E /* TableVC1.swift */; };
 		18FA0C5E1C4F1BD6007C8489 /* TableVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA0C5D1C4F1BD6007C8489 /* TableVC2.swift */; };
 		18FA0C601C4F269D007C8489 /* TableVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA0C5F1C4F269D007C8489 /* TableVC3.swift */; };
+		18FA0C621C4F2DA3007C8489 /* TableVC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA0C611C4F2DA3007C8489 /* TableVC4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		1885B9391C4E899800B9336E /* TableVC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableVC1.swift; sourceTree = "<group>"; };
 		18FA0C5D1C4F1BD6007C8489 /* TableVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableVC2.swift; sourceTree = "<group>"; };
 		18FA0C5F1C4F269D007C8489 /* TableVC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableVC3.swift; sourceTree = "<group>"; };
+		18FA0C611C4F2DA3007C8489 /* TableVC4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableVC4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				1885B9391C4E899800B9336E /* TableVC1.swift */,
 				18FA0C5D1C4F1BD6007C8489 /* TableVC2.swift */,
 				18FA0C5F1C4F269D007C8489 /* TableVC3.swift */,
+				18FA0C611C4F2DA3007C8489 /* TableVC4.swift */,
 			);
 			path = SwiftBlank;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FA0C621C4F2DA3007C8489 /* TableVC4.swift in Sources */,
 				18FA0C5E1C4F1BD6007C8489 /* TableVC2.swift in Sources */,
 				18FA0C601C4F269D007C8489 /* TableVC3.swift in Sources */,
 				1885B93A1C4E899800B9336E /* TableVC1.swift in Sources */,
