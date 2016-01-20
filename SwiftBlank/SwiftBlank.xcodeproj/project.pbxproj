@@ -13,6 +13,7 @@
 		1885B92B1C4E6EF000B9336E /* SwiftBlankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885B92A1C4E6EF000B9336E /* SwiftBlankTests.swift */; };
 		1885B93A1C4E899800B9336E /* TableVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1885B9391C4E899800B9336E /* TableVC1.swift */; };
 		18FA0C5E1C4F1BD6007C8489 /* TableVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA0C5D1C4F1BD6007C8489 /* TableVC2.swift */; };
+		18FA0C601C4F269D007C8489 /* TableVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA0C5F1C4F269D007C8489 /* TableVC3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		1885B92C1C4E6EF000B9336E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1885B9391C4E899800B9336E /* TableVC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableVC1.swift; sourceTree = "<group>"; };
 		18FA0C5D1C4F1BD6007C8489 /* TableVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableVC2.swift; sourceTree = "<group>"; };
+		18FA0C5F1C4F269D007C8489 /* TableVC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableVC3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				1885B9171C4E6EF000B9336E /* ViewController.swift */,
 				1885B9391C4E899800B9336E /* TableVC1.swift */,
 				18FA0C5D1C4F1BD6007C8489 /* TableVC2.swift */,
+				18FA0C5F1C4F269D007C8489 /* TableVC3.swift */,
 			);
 			path = SwiftBlank;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18FA0C5E1C4F1BD6007C8489 /* TableVC2.swift in Sources */,
+				18FA0C601C4F269D007C8489 /* TableVC3.swift in Sources */,
 				1885B93A1C4E899800B9336E /* TableVC1.swift in Sources */,
 				1885B9181C4E6EF000B9336E /* ViewController.swift in Sources */,
 				1885B9161C4E6EF000B9336E /* AppDelegate.swift in Sources */,
