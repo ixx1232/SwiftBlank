@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // 提示 window? 虽然也可以, 但是不建议使用!
         
         // 设置根视图控制器
-        window!.rootViewController = TableVC5()
+        window!.rootViewController = TableVC6()
         
         // 让窗口可见
         window!.makeKeyAndVisible()
