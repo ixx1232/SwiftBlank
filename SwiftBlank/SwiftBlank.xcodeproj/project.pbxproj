@@ -15,6 +15,9 @@
 		18FA0C5E1C4F1BD6007C8489 /* TableVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA0C5D1C4F1BD6007C8489 /* TableVC2.swift */; };
 		18FA0C601C4F269D007C8489 /* TableVC3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA0C5F1C4F269D007C8489 /* TableVC3.swift */; };
 		18FA0C621C4F2DA3007C8489 /* TableVC4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA0C611C4F2DA3007C8489 /* TableVC4.swift */; };
+		18FA0C641C4F31C1007C8489 /* TableVC5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA0C631C4F31C1007C8489 /* TableVC5.swift */; };
+		18FA0C6C1C4F3C5D007C8489 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA0C6B1C4F3C5D007C8489 /* Person.swift */; };
+		18FA0C701C4F3CB4007C8489 /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FA0C6F1C4F3CB4007C8489 /* MyCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		18FA0C5D1C4F1BD6007C8489 /* TableVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableVC2.swift; sourceTree = "<group>"; };
 		18FA0C5F1C4F269D007C8489 /* TableVC3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableVC3.swift; sourceTree = "<group>"; };
 		18FA0C611C4F2DA3007C8489 /* TableVC4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableVC4.swift; sourceTree = "<group>"; };
+		18FA0C631C4F31C1007C8489 /* TableVC5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableVC5.swift; sourceTree = "<group>"; };
+		18FA0C6B1C4F3C5D007C8489 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		18FA0C6F1C4F3CB4007C8489 /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,9 @@
 				18FA0C5D1C4F1BD6007C8489 /* TableVC2.swift */,
 				18FA0C5F1C4F269D007C8489 /* TableVC3.swift */,
 				18FA0C611C4F2DA3007C8489 /* TableVC4.swift */,
+				18FA0C631C4F31C1007C8489 /* TableVC5.swift */,
+				18FA0C6B1C4F3C5D007C8489 /* Person.swift */,
+				18FA0C6F1C4F3CB4007C8489 /* MyCell.swift */,
 			);
 			path = SwiftBlank;
 			sourceTree = "<group>";
@@ -204,10 +213,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				18FA0C621C4F2DA3007C8489 /* TableVC4.swift in Sources */,
+				18FA0C641C4F31C1007C8489 /* TableVC5.swift in Sources */,
 				18FA0C5E1C4F1BD6007C8489 /* TableVC2.swift in Sources */,
 				18FA0C601C4F269D007C8489 /* TableVC3.swift in Sources */,
 				1885B93A1C4E899800B9336E /* TableVC1.swift in Sources */,
 				1885B9181C4E6EF000B9336E /* ViewController.swift in Sources */,
+				18FA0C701C4F3CB4007C8489 /* MyCell.swift in Sources */,
+				18FA0C6C1C4F3C5D007C8489 /* Person.swift in Sources */,
 				1885B9161C4E6EF000B9336E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
